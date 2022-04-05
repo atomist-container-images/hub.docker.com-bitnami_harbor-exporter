@@ -1,12 +1,24 @@
-# Tags: latest, 2.4.2-debian-10-r15, 2.4.2, 2-debian-10, 2
+# Tags: latest, 2.4.2-debian-10-r19, 2.4.2, 2-debian-10, 2
 FROM bitnami/harbor-exporter:latest
-FROM bitnami/harbor-exporter:2.4.2-debian-10-r15
+FROM bitnami/harbor-exporter:2.4.2-debian-10-r19
 FROM bitnami/harbor-exporter:2.4.2
 FROM bitnami/harbor-exporter:2-debian-10
 FROM bitnami/harbor-exporter:2
 
 # Tags: _
 FROM bitnami/harbor-exporter:_
+
+# Tags: 2.4.2-debian-10-r18
+FROM bitnami/harbor-exporter:2.4.2-debian-10-r18
+
+# Tags: 2.4.2-debian-10-r17
+FROM bitnami/harbor-exporter:2.4.2-debian-10-r17
+
+# Tags: 2.4.2-debian-10-r16
+FROM bitnami/harbor-exporter:2.4.2-debian-10-r16
+
+# Tags: 2.4.2-debian-10-r15
+FROM bitnami/harbor-exporter:2.4.2-debian-10-r15
 
 # Tags: 2.4.2-debian-10-r14
 FROM bitnami/harbor-exporter:2.4.2-debian-10-r14
